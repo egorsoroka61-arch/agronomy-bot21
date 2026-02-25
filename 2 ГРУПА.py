@@ -11,8 +11,8 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeybo
 
 # --- 1. НАЛАШТУВАННЯ ТА БЕЗПЕКА ---
 # Бот спочатку шукає BOT_TOKEN у налаштуваннях Railway, якщо не знаходить — використовує порожній рядок
-API_TOKEN = os.getenv('BOT_TOKEN', '') 
-ADMINS = [8507310778, 123456789] # Твій ID вже тут
+API_TOKEN = os.getenv('8641455876:AAEt-VQa2dxRQZlOGhd1krymhZ6xzPm6yVY', '') 
+ADMINS = [1604690472, 123456789] # Твій ID вже тут
 
 if not API_TOKEN:
     exit("Помилка: BOT_TOKEN не знайдено в налаштуваннях Railway!")
@@ -147,3 +147,4 @@ async def main():
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     asyncio.run(main())
+
