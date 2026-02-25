@@ -1,1 +1,2 @@
-worker: python 2 ГРУПА.py
+worker: python main.py
+
